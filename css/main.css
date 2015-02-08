@@ -327,74 +327,50 @@ section {
 .light img {
 	margin-bottom: -15%;
 }
- 
 
- /*************************
-*******Event CSS******
-**************************/
-#event {
+/* Speakers */
+
+#speakers {
   background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
-  background-position: 50% 0;
-  background-size: contain;
-  position: relative;
-  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF
 }
 
-.guitar {
-  position: absolute;
-  right:0;
-  top: 0
+#speakers .heading {
+	margin-bottom: 3%;
 }
 
-
-#event h2 {
-  color: #FFFFFF;
-  font-size: 36px;
-  font-weight: 300;
-  margin-bottom: 40px;
-  margin-top: 70px;
-  
+#speakers img {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	border: 5px solid #C13832;
 }
 
-.single-event {
-  margin-bottom: 70px;
+#speakers h4 a {
+	font-size: 75%;
+	color: #FFFFFF;
 }
 
-.single-event h4 {
-  color: #FFFFFF;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 26px;
-  margin-top: 25px;
-  
+#speakers h4 a:hover {
+	color: #0077B5;
+	background-color: #FFFFFF;
 }
 
-
-.single-event h5 {
-  font-size: 18px;
-  font-weight: 100;
-  display: block;
+#speakers h5 a,
+#speakers h6 a {
+	color: #FFFFFF;
 }
 
-#event-carousel {
-  position: relative;
-}
-
-.even-control-left, 
-.even-control-right {
-  position: absolute;
-  font-size: 24px;
-  color: #fff;
-  top: 0;
-}
-
-.even-control-left {
-  right: 3%
-} 
-
-.even-control-right {
-  right: 0;
+#speakers h5 a:hover,
+#speakers h6 a:hover {
+	color: #3388FF;
+	background-color: #FFFFFF;
+	font-weight: 600;
+	font-size: 110%;
+	text-decoration: none;
 }
 
 

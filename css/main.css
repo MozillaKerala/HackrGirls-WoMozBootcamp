@@ -141,63 +141,64 @@ section {
 /* Home */
 
 #home {
-  position: relative;
-  overflow: hidden;
+	padding: 0%;
+	position: relative;
+	overflow: hidden;
 }
 
 #main-slider {
-  height: 100vh;
+	height: 100vh;
 }
 
 #main-slider img {
-  width: 100%;
+ 	width: 100%;
 }
 
 #main-slider .carousel-caption {
-  color: #fff;
-  text-align: left;
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
-  padding: 10px 60px 35px;
-  right: 0%;
-  bottom: 14%;
-  left: 65%;  
+	color: #fff;
+	text-align: left;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+	padding: 10px 60px 35px;
+	right: 0%;
+	bottom: 14%;
+	left: 65%;  
 }
 
 
 #main-slider .carousel-caption h2,
 #main-slider .carousel-caption h4 {  
-  text-align: right; 
+	text-align: right; 
 }
 
 #main-slider .carousel-caption a {
-  color: #2da1c5
+	color: #2da1c5
 }
 
 #main-slider .carousel-caption a:hover {
-  color: #2588a6
+	color: #2588a6
 }
 
 #main-slider .carousel-caption a:hover span {
-  margin-left: 35px
+	margin-left: 35px
 }
 
 #main-slider .carousel-caption a span {
-  margin-left: 15px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+	margin-left: 15px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 #main-slider .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+	background-color:#1B7B98;
+	border: 1px solid #1B7B98;
 }
 
 #main-slider .carousel-indicators li.active {
-  background-color:#fff;
-  border: 1px solid #fff;
+	background-color:#fff;
+	border: 1px solid #fff;
 }
 
 /* About */
@@ -209,6 +210,15 @@ section {
 		);
 }
 
+#about .WoTech,
+#about .WoMoz,
+#about .HackrGirls,
+#about .YKerala {
+	border-radius: 2%;
+	padding: 2% 1.3%;
+	margin: 1% 0%;
+}
+
 #about .WoMoz,
 #about .HackrGirls {
 	background-color: #C13832;
@@ -216,7 +226,7 @@ section {
 }
 
 #about .HackrGirls {
-	padding-bottom: 1.45%;
+	padding-bottom: 3.5%;
 }
 
 #about .WoTech,
@@ -226,7 +236,7 @@ section {
 }
 
 #about .WoTech {
-	padding-bottom: 0.25%;
+	padding-bottom: 2.2%;
 }
 
 #about h2 {
@@ -238,6 +248,85 @@ section {
 	text-align: justify;
 }
 
+/* Quotes */
+
+#quotes {
+	background-color: #ECEDEF;
+	background-image: url("../images/twitter-bg.jpg");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: relative;
+	padding: 95px 0 90px;
+	overflow: hidden;
+}
+
+#quotes-feed .item {
+	text-align: center;
+}
+
+#quotes-feed .item img {
+	/*display: inline-block;*/
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #C5C8CE;
+	padding: 5px;
+}
+
+#quotes-feed .item a, 
+#quotes-feed .item p { 
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif;
+
+}
+
+#quotes-feed .item p {
+	color: #3D3D3D;
+}
+
+#quotes-feed .item a {
+	color:#00C3FF;
+}
+
+#quotes-feed #GDA p {
+	margin-top: 6%;
+}
+
+#quotes-feed #HR p {
+	margin-top: 6%;
+}
+
+#quotes-feed #AE p {
+	margin-top: 2%;
+}
+
+.control-left, 
+.control-right {
+	position: absolute;
+	color: #00c3ff;
+	top: 50%;
+	font-size: 24px
+}
+
+.control-left {
+	left: 0;
+}
+
+.control-right {
+	right:0;
+}
+
+.light {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.light img {
+	margin-bottom: -15%;
+}
  
 
  /*************************
@@ -363,74 +452,6 @@ section {
 
 
 /*************************
-******Twitter CSS****
-**************************/
-
-#twitter {
-  background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat:no-repeat;
-  position: relative;
-  padding: 95px 0 90px;
-  overflow: hidden;
-}
-
-.twit {
-  position: absolute;
-  left: 0;
-  top:-42%;
-}
-
-#twitter-feed .item {
-  text-align: center;
-}
-
-#twitter-feed .item img {
-  display: inline-block;
-  width: 78px;
-  height: 78px;
-  border-radius: 50%;
-  background-color: #c5c8ce;
-  padding: 5px;
-  margin-bottom: 30px;
-}
-
-#twitter-feed .item a, 
-#twitter-feed .item p { 
-  font-size: 24px;
-  font-weight: 300;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
-}
-
-#twitter-feed .item p {
-  color: #3D3D3D;
-}
-
-#twitter-feed .item a {
-  color:#00c3ff;
-}
-
-.twitter-control-left, 
-.twitter-control-right {
-  position: absolute;
-  color: #00c3ff;
-  top: 59%;
-  font-size: 24px
-}
-
-.twitter-control-left {
-  left: 0;
-}
-
-.twitter-control-right {
-  right:0;
-} 
-
-
-
-/*************************
 ******Sponsor CSS****
 **************************/
 
@@ -441,12 +462,6 @@ section {
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
-}
-
-.light {
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 
 #sponsor .col-sm-10 {

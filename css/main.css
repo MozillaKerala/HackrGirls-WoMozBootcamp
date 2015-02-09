@@ -479,16 +479,16 @@ section {
 	background-color: #0A80A4;
 }
 
+/* Map */
 
-/*************************
-******Map CSS****
-**************************/
-#map {
-  position: relative;
+#where {
+	padding: 0%;
+	margin: auto;
 }
 
-#gmap {
-  height:450px;  
+#where a {
+	position: absolute;
+	margin-top: -2%;
 }
 
 

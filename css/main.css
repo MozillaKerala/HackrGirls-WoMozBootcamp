@@ -491,6 +491,35 @@ section {
 	margin-top: -2%;
 }
 
+/* Team */
+
+#people {
+	background-color: #D7D3C8;
+	text-align: center;
+}
+
+#people .row {
+	margin: 4%
+}
+
+#people h1 {
+	color: #000000;
+	margin: auto;
+}
+
+#people h3 {
+	margin-top: 0%;
+	/*margin-bottom: 3%;*/
+}
+
+#people .team {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	border: 5px solid #C13832;
+}
+
 
 /*************************
 ******Contact CSS****

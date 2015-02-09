@@ -204,7 +204,6 @@ section {
 	left: 65%;  
 }
 
-
 #main-slider .carousel-caption h2,
 #main-slider .carousel-caption h4 {  
 	text-align: right; 
@@ -240,6 +239,7 @@ section {
 	background-color:#fff;
 	border: 1px solid #fff;
 }
+
 
 /* About */
 #about {

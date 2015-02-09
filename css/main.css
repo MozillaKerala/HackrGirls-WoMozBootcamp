@@ -473,60 +473,10 @@ section {
 	background: url("../images/banner-flipped.png") no-repeat scroll center top / 125% auto rgba(75, 255, 75, 0.5);
 }
 
+/* Registration */
 
-/*************************
-******Sponsor CSS****
-**************************/
-
-#sponsor {
-  background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
-  background-position:50% 0;
-  background-size: cover;
-  background-repeat:no-repeat;
-  position: relative;
-}
-
-#sponsor .col-sm-10 {
-  z-index: 10;
-}
-
-#sponsor h2 {
-  margin-top: 90px;
-  margin-bottom: 40px;
-}
-
-#sponsor .item ul {
-  font-size: 0;
-  padding: 0;
-}
-
-
-#sponsor .item ul li {
-  display: inline-block;
-  list-style: none;
-  width: 33.33%;
-  margin-bottom: 75px;
-}
-
-#sponsor .item ul li:last-child {
-  margin-right: 0
-}
-
-.sponsor-control-left, 
-.sponsor-control-right {
-  color: #FFFFFF;
-  font-size: 24px;
-  position: absolute;
-  top: 20%;
-}
-
-.sponsor-control-left {
-  right: 12%
-}
-
-.sponsor-control-right {
-  right: 10%
+#register {
+	background-color: #0A80A4;
 }
 
 

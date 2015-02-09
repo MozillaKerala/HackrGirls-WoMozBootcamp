@@ -568,29 +568,60 @@ section {
 	background-color: #E66000;
 }
 
+/* Footer CSS */
 
-
-/*************************
-******Footer CSS****
-**************************/
-
-#footer {
-  background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #FFFFFF;
-  font-size: 20px;
-  padding: 35px 0;
+footer {
+ 	color: #FFFFFF;
+	text-align: center;
+	padding: 2% 0%;
+	background-color: #212121;
+	border-radius: 10px;
+	box-shadow: 0px -2.5px 5px #DBDBDB;
 }
 
-#footer a {
-  color:#f7ab24
+footer a {
+	color:#F7AB24;
 }
 
-#footer a:hover {
-  color:#1B7B98
+footer a:hover {
+	color:#1B7B98;
 }
 
+footer .design {
+	padding: 2% 0%;
+}
 
+footer .contact a:hover {
+	text-decoration: none;
+}
+
+footer .contact .facebook:hover {
+	color: #326496 !important;
+}
+
+footer .contact .twitter:hover {
+	color: #484848 !important;
+}
+
+footer .contact .twitter:hover .fa-twitter {
+	color: #00ACED;
+}
+
+footer .contact .gplus:hover {
+	color: #c83232 !important;
+}
+
+footer .contact .github:hover {
+	color: #484848 !important;
+}
+
+/* Video Modal */
+
+#video .modal-dialog {
+    width: 450px;
+    margin: 7.5% auto;
+}
+
+#video .modal-content {
+	background-color: transparent;
+}

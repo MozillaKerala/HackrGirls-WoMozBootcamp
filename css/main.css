@@ -21,7 +21,9 @@ section {
 }
 
 .heading {
+	color: #FFFFFF;
 	text-align: center;
+	font-weight: bold;
 	margin-bottom: 3%;
 }
 
@@ -447,58 +449,29 @@ section {
 	margin-left: 2%;
 }
 
+/* FAQ */
 
-/*************************
-*******About CSS**********
-**************************/
-
-#about {
-  background-color: #75B46E;  
-  position: relative;  
-  width: 100%;
-  display: flex;
+#faq {
+	background-color: #75B370;
 }
 
-.guitar2 {
-  top: 0;
-  width: 50%;
+#faq #accordion {
+	margin: 0% 10%;
 }
 
-.guitar2 img {
-  padding-top: 3%;
+#faq .panel,
+#faq .panel-default {
+	border: none;
 }
 
-.about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
+#faq .panel-heading {
+	color: #FFFFFF;
+	background: url("../images/banner.png") no-repeat scroll center bottom / 125% auto #208C46;
 }
 
-
-#about h2 {
-  margin-bottom: 23px;
+#faq .panel-body {
+	background: url("../images/banner-flipped.png") no-repeat scroll center top / 125% auto rgba(75, 255, 75, 0.5);
 }
-
-.about-content p {
-  font-size: 17px;
-  font-family: 'Dosis',sans-serif;
-}
-
-#about .btn-primary {
-  background-color: #137c61;
-  color: #fff;
-  text-transform: capitalize;
-  border: none;
-  margin-top: 28px;
-}
-
-#about .btn-primary:hover {
-  background-color: #126d55
-}
-
 
 
 /*************************

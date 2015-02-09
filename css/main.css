@@ -27,22 +27,6 @@ section {
 	margin-bottom: 3%;
 }
 
-/* Navigation */
-
-.navbar-toggle {
-  margin-top: 12px;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: #FFFFFF;
-}
-
-.navbar-toggle,
-.navbar-toggle:focus {
-  border: 1px solid #FFFFFF;
-  outline: none;
-}
-
 
 /* Header */
 
@@ -83,6 +67,23 @@ section {
 
 .social-icons .fa-google-plus:hover {
   color:#D13D2F;
+}
+
+
+/* Navigation */
+
+.navbar-toggle {
+  margin-top: 12px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+
+.navbar-toggle,
+.navbar-toggle:focus {
+  border: 1px solid #FFFFFF;
+  outline: none;
 }
 
 .navbar-brand {
@@ -152,6 +153,29 @@ section {
   display: none;
 }
 
+
+/* Button */
+
+.btn {
+}
+
+.btn-3d {
+	/*background: #FF9500;
+	font-size: 22px;
+	color: #FFFFFF;*/
+	color: rgba(25, 125, 150, 0.9) !important;
+	padding: 7.5% 10% !important;
+	margin-top: 7%;
+	border: none !important;
+}
+
+.btn-3d:hover {
+	font-size: 24px;
+	font-weight: 400;
+	color: #FFFFFF !important;
+	background: #4D4E53 !important;
+	border-bottom: 5px solid #C13832 !important;
+}
 
 
 /* Home */

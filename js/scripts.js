@@ -22,4 +22,17 @@ jQuery(document).ready(function($){
 		$(n.target).siblings('.panel-heading').find('span.glyphicon')
 		.toggleClass('glyphicon-plus glyphicon-minus');
 	});
+
+	//Modal for cheat-sheets
+	$('li img').on('click',function(){
+		var src = $(this).attr('src');
+		var img = '<img src="' + src + '" class="img-responsive"/>';
+		$('#cheats-modal').modal();
+		$('#cheats-modal').on('shown.bs.modal', function(){
+			$('#cheats-modal .modal-body').html(img);
+		});
+		$('#cheats-modal').on('hidden.bs.modal', function(){
+			$('#cheats-modal .modal-body').html('');
+		});
+	});  
 });

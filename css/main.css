@@ -553,6 +553,26 @@ section {
 	border: 5px solid #C13832;
 }
 
+#people .credits {
+	margin-top: 8%;
+	text-align: left;
+}
+
+#people .credits h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+#people .credits a {
+	color: #C13832;
+}
+
+#people .credits a:hover {
+	font-weight: 600;
+	text-shadow: 2px 0 #FFFFFF;
+	text-decoration: none;
+}
+
 /* Cheats */
 
 #cheats {

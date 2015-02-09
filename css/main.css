@@ -276,7 +276,18 @@ section {
 }
 
 #about .WoTech {
-	padding-bottom: 2.2%;
+	padding-bottom: 2.8%;
+}
+
+#about a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#about a:hover {
+	color: #C13832;
+	text-decoration: none;
+	background-color: #FFFFFF
 }
 
 #about h2 {

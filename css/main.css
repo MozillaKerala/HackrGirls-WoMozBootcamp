@@ -243,40 +243,13 @@ section {
 
 /* About */
 #about {
-	background-image: 
-		radial-gradient(
-			circle,
-			#D7D3C8, #C13832
-		);
-}
-
-#about .WoTech,
-#about .WoMoz,
-#about .HackrGirls,
-#about .YKerala {
-	border-radius: 2%;
-	padding: 2% 1.3%;
-	margin: 1% 0%;
-}
-
-#about .WoMoz,
-#about .HackrGirls {
-	background-color: #C13832;
 	color: #FFFFFF;
+	background-color: #C13832;
 }
 
-#about .HackrGirls {
-	padding-bottom: 3.5%;
-}
-
-#about .WoTech,
-#about .YKerala {
-	background-color: #D7D3C8;
-	color: #4D4E53;
-}
-
-#about .WoTech {
-	padding-bottom: 2.8%;
+#about .item {
+	margin: 0% 3%;
+	height: 330px;
 }
 
 #about a {

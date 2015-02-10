@@ -249,7 +249,7 @@ section {
 
 #about .item {
 	margin: 0% 3%;
-	height: 330px;
+	height: 450px;
 }
 
 #about a {
@@ -271,6 +271,52 @@ section {
 	line-height: 1.5em;
 	text-align: justify;
 }
+
+/* Cheats */
+
+#cheats h3,
+#cheats h4 {
+	margin: 0%;
+}
+
+#cheats h4 {
+	text-align: center;
+	margin-top: 0.5%;
+	margin-bottom: 3%;
+}
+
+#cheats ul {         
+	padding: 0%;
+	margin: 0%;
+}
+
+#cheats	ul li {     
+	list-style: none;
+}
+
+#cheats	ul li img {
+	cursor: pointer;
+}
+
+#cheats ul li figure {
+	vertical-align: middle;
+}
+
+#cheats ul li figcaption {
+	margin: 2.5% 0%;
+}
+
+#cheats ul li a {
+	color: #C13832;
+	text-decoration: none;
+	border: none;
+}
+
+#cheats ul li a:hover {
+	font-weight: bold;
+	text-shadow: 0.5px 0 #C8C8C8;
+}
+
 
 /* Quotes */
 
@@ -544,54 +590,6 @@ section {
 	font-weight: 600;
 	text-shadow: 2px 0 #FFFFFF;
 	text-decoration: none;
-}
-
-/* Cheats */
-
-#cheats {
-	background-color: #F7AB24;
-	text-align: center;
-}
-
-#cheats h3,
-#cheats h4 {
-	margin: 0%;
-}
-
-#cheats h4 {
-	margin-top: 0.5%;
-	margin-bottom: 3%;
-}
-
-#cheats ul {         
-	padding: 0%;
-	margin: 0%;
-}
-
-#cheats	ul li {     
-	list-style: none;
-}
-
-#cheats	ul li img {
-	cursor: pointer;
-}
-
-#cheats ul li figure {
-	vertical-align: middle;
-}
-
-#cheats ul li figcaption {
-	margin: 2.5% 0%;
-}
-
-#cheats ul li a {
-	color: #FF9500;
-	border: none;
-}
-
-#cheats ul li a:hover {
-	color: #FFFFFF;
-	background-color: #E66000;
 }
 
 /* Footer CSS */

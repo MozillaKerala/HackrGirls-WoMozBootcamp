@@ -527,8 +527,14 @@ section {
 
 /* Registration */
 
-#register {
+#register .modal-content {
 	background-color: #0A80A4;
+	margin: 0% 6.75%;
+}
+
+#register .modal-header button {
+	color: #FFFFFF;
+	opacity: 1;
 }
 
 /* Map */

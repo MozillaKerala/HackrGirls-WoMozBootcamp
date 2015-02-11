@@ -61,7 +61,7 @@
 			                    <li class="scroll"><a href="#faq">FAQ</a></li>
 			                    <li class="scroll"><a href="#cheats">Cheats</a></li>
 			                    <li class="scroll"><a href="#people">Team</a></li>
-			                    <li class="scroll"><a class="btn btn-3d btn-default" href="#register">Register</a></li>
+			                    <li class="scroll"><a class="btn btn-3d btn-default" href="#" data-toggle="modal" data-target="#register">Register</a></li>
 			                </ul>
 			            </div>
 			        </div>
@@ -87,7 +87,7 @@
 					<div class="carousel-caption">
 						<h2>FEBRUARY 21-22, 2015</h2>
 						<h4>FISAT, ANGAMALY</h4>
-						<a href="#register">LIMITED SEATS AVAILABLE <br> HURRY! RESERVE YOUR SEAT NOW! <span class="glyphicon glyphicon-menu-right"></span></a>
+						<a href="#" data-toggle="modal" data-target="#register">LIMITED SEATS AVAILABLE <br> HURRY! RESERVE YOUR SEAT NOW! <span class="glyphicon glyphicon-menu-right"></span></a>
 					</div>
 				</div>
 			</div>    	
@@ -625,7 +625,7 @@
 							<div id="seats" class="panel-collapse collapse">
 								<div class="panel-body">
 									<h4>To ensure maximum productivity, we have fixed a capacity of only <strong>50</strong>.
-									<br>So, if you want to be a part of the elite 50, go ahead and <a href="#register">register below</a></h4>
+									<br>So, if you're a woman and want to be a part of the elite 50, <a href="#" data-toggle="modal" data-target="#register">register</a> yourself now!</h4>
 								</div>
 							</div>
 						</div>
@@ -725,14 +725,22 @@
 		</section>
 		<!-- End FAQ -->
 
-		<!-- Registration -->
-		<section id="register">
-			<div class="container text-center">
-				<h1 class="heading">REGISTER</h1>
-				<iframe src="https://docs.google.com/forms/d/1EHyKNJqT-nT6qdudxk09MHPMvZ24Jnr5esrcv7NtW6A/viewform?embedded=true" width="750" height="2550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-			</div>
-		</section>
-		<!-- End Registration -->
+		<!-- Registration Modal -->
+		<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+		    <div class="modal-dialog modal-lg">
+		        <div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h1 class="modal-title heading">REGISTER</h1>
+					</div>
+		            <div class="modal-body">
+		                <iframe src="https://docs.google.com/forms/d/1EHyKNJqT-nT6qdudxk09MHPMvZ24Jnr5esrcv7NtW6A/viewform?embedded=true" width="750" height="2550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		            </div>
+		        </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- End Registration Modal -->
 
 		<!-- Map -->
 		<section id="where">

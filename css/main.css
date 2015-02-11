@@ -617,6 +617,10 @@ footer a:hover {
 	color:#1B7B98;
 }
 
+footer .fa-github {
+	color:#F7AB24;	
+}
+
 footer .design {
 	padding: 2% 0%;
 }

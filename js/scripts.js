@@ -34,5 +34,22 @@ jQuery(document).ready(function($){
 		$('#cheats-modal').on('hidden.bs.modal', function(){
 			$('#cheats-modal .modal-body').html('');
 		});
-	});  
+	});
+
+	//Fade in .back-to-top
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 640) {
+			$('.back-to-top').fadeIn();
+		}	else {
+			$('.back-to-top').fadeOut();
+		}
+	});
+
+	//Scroll to Top
+	$('.back-to-top').click(function () {
+		$('html,body').animate({
+			scrollTop: 0
+		}, 1500);
+		return false;
+	});
 });
